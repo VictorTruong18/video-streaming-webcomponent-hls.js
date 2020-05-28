@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
+		<meta charset="UTF-8" />
 
-    <meta charset="UTF-8">
-    
-    <script src="player.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js"></script>
+		<script src="player.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Component</title>
-    
-</head>
-<body>
-  
-    <player-videostreaming 
-        id = 'video1'
-        url = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8'
-        widthChoice = 800
-        heightChoice = 500
-        autoPlay = true
-        backgroundColor = '#000'>
-    </player-videostreaming>
-    
- 
-   
-  
-</body>
-
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Component</title>
+	</head>
+	<body>
+		<player-videostreaming
+			class="player"
+			id="video1"
+			url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+			widthChoice="800"
+			heightChoice="500"
+			autoPlay="true"
+			backgroundColor="#000"
+		>
+		</player-videostreaming>
+	</body>
 </html>
