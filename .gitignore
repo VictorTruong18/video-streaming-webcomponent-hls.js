@@ -2,9 +2,5 @@ node_modules
 tests_output
 chromedriver.log
 debug.log
-
-/tests
-/index.html
-.nightwatch.conf.js
-.package-lock.json
-.package.json
+.README.md
+*.html
