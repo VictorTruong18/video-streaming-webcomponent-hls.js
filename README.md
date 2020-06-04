@@ -88,7 +88,7 @@ Our video streaming web component is called **`player.js`** and you can see the 
 The whole purpose of this video streaming component is to allow you to easily stream videos by only writing this in your `HTML <body>` :
 
 ```html
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -114,7 +114,7 @@ The whole purpose of this video streaming component is to allow you to easily st
 		</player-videostreaming>
 		//WEB COMPONENT
 	</body>
-</html>**
+</html>
 ```
 
 ---
@@ -136,7 +136,7 @@ To make an import in good old HTML you just have to add `<script src: >` tags
 - I**mport the hls.js library :**
 
 ```html
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -148,13 +148,13 @@ To make an import in good old HTML you just have to add `<script src: >` tags
 	</head>
 	<body>
 	</body>
-</html>**
+</html>
 ```
 
 **the url link to put between the script tags :**
 
 ```html
-**https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js**
+https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js
 ```
 
 - I**mport the player.js webcomponent :**
@@ -162,7 +162,7 @@ To make an import in good old HTML you just have to add `<script src: >` tags
 For this one you will have to download  the 'player.js' from the github repo, and put this file into your project folder. Then to import it you'll simply need to specify the path leading to this file.
 
 ```html
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -177,7 +177,7 @@ For this one you will have to download  the 'player.js' from the github repo, an
 	</head>
 	<body>
 	</body>
-</html>**
+</html>
 ```
 
 ps : A solution to make the Player.js file accessible by an URL link will arrive soon 😉 
@@ -195,7 +195,7 @@ Now we need to assure ourselves that everything works. To check if everything is
 - Use the webomponent that you have imported :
 
 ```html
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		...
@@ -206,13 +206,13 @@ Now we need to assure ourselves that everything works. To check if everything is
 		</player-videostreaming>
 				
 	</body>
-</html>**
+</html>
 ```
 
 - Fill it with all the parameters that are necessary :
 
 ```html
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		...
@@ -231,7 +231,7 @@ Now we need to assure ourselves that everything works. To check if everything is
 		</player-videostreaming>
 						
 	</body>
-</html>**
+</html>
 ```
 
 *TADA 🎉 It works even in JavaEE :*
