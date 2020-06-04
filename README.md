@@ -102,17 +102,17 @@ The whole purpose of this video streaming component is to allow you to easily st
 		<title>Web Component</title>
 	</head>
 	<body>
-						//WEB COMPONENT
-						<player-videostreaming
-							id="video1" 
-							url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-							widthChoice="800"
-							heightChoice="500"
-							autoPlay="true"
-							backgroundColor="#000"
-						>
-						</player-videostreaming>
-						//WEB COMPONENT
+		//WEB COMPONENT
+		<player-videostreaming
+		    id="video1" 
+			url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+			widthChoice="800"
+			heightChoice="500"
+			autoPlay="true"
+			backgroundColor="#000"
+		>
+		</player-videostreaming>
+		//WEB COMPONENT
 	</body>
 </html>**
 ```
@@ -201,9 +201,9 @@ Now we need to assure ourselves that everything works. To check if everything is
 		...
 	</head>
 	<body>
-						//Web component :
-						<player-videostreaming>
-						</player-videostreaming>
+		//Web component :
+		<player-videostreaming>
+		</player-videostreaming>
 				
 	</body>
 </html>**
@@ -218,17 +218,17 @@ Now we need to assure ourselves that everything works. To check if everything is
 		...
 	</head>
 	<body>
-						//Web component :
-						//the url param is the url path leading to the rabbit video.
-						<player-videostreaming
-							id="video-rabbit" 
-							url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-							widthChoice="800"
-							heightChoice="500"
-							autoPlay="true"
-							backgroundColor="#000"
-						>
-						</player-videostreaming>
+		//Web component :
+		//the url param is the url path leading to the rabbit video.
+		<player-videostreaming
+			id="video-rabbit" 
+			url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+			widthChoice="800"
+			heightChoice="500"
+			autoPlay="true"
+			backgroundColor="#000"
+		>
+		</player-videostreaming>
 						
 	</body>
 </html>**
@@ -314,12 +314,12 @@ Now we just have to put our last url from the last step :
 
 ```html
 <player-videostreaming 
-					        id = 'video1'
-					        url = 'http://localhost:8080/PROJET/assets/videos/sample.m3u8'
-					        widthChoice = 800
-					        heightChoice = 500
-					        autoPlay = true
-					        backgroundColor = '#000'>
+	id = 'video1'
+	url = 'http://localhost:8080/PROJET/assets/videos/sample.m3u8'
+	widthChoice = 800
+	heightChoice = 500
+	autoPlay = true
+	backgroundColor = '#000'>
 </player-videostreaming>
 ```
 
