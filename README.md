@@ -4,6 +4,36 @@ Web component to do video streaming implementing the [hls.js](https://github.com
 
 ![Video%20Streaming%20Web%20Component%20641db35b487b44a59e612655f182700f/Screen_Shot_2020-06-04_at_13.10.50.png](Video%20Streaming%20Web%20Component%20641db35b487b44a59e612655f182700f/Screen_Shot_2020-06-04_at_13.10.50.png)
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		//IMPORT
+		<script src="player.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Component</title>
+	</head>
+	<body>
+		<h1>Web Component Streaming Demo</h1>
+
+		//WEB COMPONENT
+		<player-videostreaming
+			id="video-MichealJordan"
+			url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+			widthChoice="800"
+			heightChoice="500"
+			autoPlay="true"
+			backgroundColor="#000"
+		>
+		</player-videostreaming>
+	</body>
+</html>
+```
+
 Live demo here : [https://webcomponent-streaming-demo.herokuapp.com/](https://webcomponent-streaming-demo.herokuapp.com/)
 
 ---

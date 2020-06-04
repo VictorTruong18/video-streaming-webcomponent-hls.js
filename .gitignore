@@ -2,5 +2,6 @@ node_modules
 tests_output
 chromedriver.log
 debug.log
-.README.md
+README.md
 *.html
+./tests
