@@ -23,7 +23,7 @@ Web component to do video streaming implementing the [hls.js](https://github.com
 		//WEB COMPONENT
 		<player-videostreaming
 			id="video-MichealJordan"
-			url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+			url="https://webcomponent-streaming-demo.herokuapp.com/assets/sample1/sample.m3u8"
 			widthChoice="800"
 			heightChoice="500"
 			autoPlay="true"
