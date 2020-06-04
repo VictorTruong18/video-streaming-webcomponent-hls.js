@@ -4,6 +4,8 @@ Web component to do video streaming implementing the [hls.js](https://github.com
 
 ![Video%20Streaming%20Web%20Component%20641db35b487b44a59e612655f182700f/Screen_Shot_2020-06-04_at_13.10.50.png](Video%20Streaming%20Web%20Component%20641db35b487b44a59e612655f182700f/Screen_Shot_2020-06-04_at_13.10.50.png)
 
+The code for the page above :
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
