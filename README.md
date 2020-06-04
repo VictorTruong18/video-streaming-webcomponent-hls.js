@@ -119,7 +119,7 @@ The whole purpose of this video streaming component is to allow you to easily st
 
 ---
 
-### 4) How to use the Video Streaming Web Component ? 🧾
+## 4) How to use the Video Streaming Web Component ? 🧾
 
 Five easy steps to follow in order to stream your video :
 
